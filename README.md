@@ -8,3 +8,6 @@ We were ranked 8th out of 100.
 this repository contains :
 - shipclassification.ipynb file with our CNN
 - navirelibre.ipynb file where we used pre-build CNN
+
+Vincent THONG
+Maxime Boy Arnould
