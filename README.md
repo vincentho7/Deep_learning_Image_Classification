@@ -6,8 +6,9 @@ From a image dataset , we had to build a small CNN (30 layer) able to identify t
 We were ranked 8th out of 100.
 
 this repository contains :
+- navirelibre.ipynb file where we used pre-build CNN and a presentation of our project
 - shipclassification.ipynb file with our CNN
-- navirelibre.ipynb file where we used pre-build CNN
 
-Vincent THONG
+
+Vincent THONG &
 Maxime Boy Arnould
