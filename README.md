@@ -1,15 +1,15 @@
-Kaggle 2023 EPITA Competition 
+Kaggle Competition — Ship Classification (EPITA 2023)
 
-https://www.kaggle.com/competitions/navires-2023-la-mano/data
+Image classification challenge on a dataset of ~33 700 ship photographs across 10 vessel categories, with significant class imbalance.
 
-From a image dataset , we had to build a small CNN (30 layer) able to identify the type of ship.
-We were ranked 8th out of 100.
+Ranked 8th out of 100 teams — accuracy : 0.83
 
-this repository contains :
+Two models were developed and compared :
 
-- shipclassification.ipynb file with a CNN made from scratch and a presentation of our project
-- navirelibre.ipynb file where we used pre-build CNN 
+A CNN built from scratch (< 30 layers) — shipclassification.ipynb
+A transfer learning approach using a pre-trained CNN — navirelibre.ipynb
 
+Key challenge : handling class imbalance across 10 categories ranging from cv_scaled (1 827 samples) to containership_scaled (5 454 samples).
+Tech stack : Python, Tensorflow, NumPy, Matplotlib
 
-Vincent THONG &
-Maxime Boy Arnould
+Vincent THONG & Maxime Boy Arnould
